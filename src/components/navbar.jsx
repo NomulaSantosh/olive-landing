@@ -1,7 +1,6 @@
 // src/components/Navbar.jsx
 
 import { useState } from "react";
-import OliveIcon from "./OliveIcon";
 import olivelogo from "../assets/olive.jpg";
 const NAV_ITEMS = [
   { label: "Olive Health", hasDropdown: false },
