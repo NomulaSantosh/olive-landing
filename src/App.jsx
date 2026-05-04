@@ -1,7 +1,7 @@
 // src/App.jsx
 
 import Navbar from "./components/navbar";
-import HeroSection from "./components/herosection";
+import HeroSection from "./components/HeroSection";
 
 const App = () => (
   <div style={{ minHeight:"100vh", backgroundColor:"#FFFFFF", fontFamily:"'DM Sans', sans-serif" }}>
