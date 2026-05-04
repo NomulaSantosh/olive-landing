@@ -1,7 +1,7 @@
 // src/components/PhoneMockup.jsx
 
 import { useState, useEffect } from "react";
-import OliveIcon from "./OliveIcon";
+import olivelogo from "../assets/olive.jpg";
 
 const HeartIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -262,7 +262,7 @@ const PhoneMockup = () => {
           {/* Oliver Says */}
           <div style={{ margin:"0 12px 10px", background:"#fffbeb", borderRadius:20, padding:14 }}>
             <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:8 }}>
-              <OliveIcon size={24} />
+              <olivelogo size={24} />
               <span style={{ fontWeight:700, color:"#111827", fontSize:13 }}>Oliver Says:</span>
             </div>
             <p style={{ color:"#4b5563", fontSize:11.5, lineHeight:1.65 }}>
